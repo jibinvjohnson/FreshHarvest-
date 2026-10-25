@@ -7,6 +7,8 @@
 **Institution:** Amal Jyothi College of Engineering  
 **Department:** Computer Science and Engineering  
 **Course:** Database Management Systems (DBMS) Capstone Laboratory  
+**Live Production URL:** [https://fresh-harvest-swart.vercel.app/](https://fresh-harvest-swart.vercel.app/)  
+**GitHub Repository:** [https://github.com/jibinvjohnson/FreshHarvest-](https://github.com/jibinvjohnson/FreshHarvest-)  
 
 ---
 

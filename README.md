@@ -3,6 +3,9 @@
 > **Student:** JIBIN V JOHNSON &bull; **Roll No:** 15  
 > **Institution:** Amal Jyothi College of Engineering  
 > **Unique Focus:** Harvest Promise, Fair Pre-Order Allocation, and Surplus Rescue  
+> 
+> 🌐 **Live Production Deployment:** [https://fresh-harvest-swart.vercel.app/](https://fresh-harvest-swart.vercel.app/)  
+> 📁 **GitHub Repository:** [https://github.com/jibinvjohnson/FreshHarvest-](https://github.com/jibinvjohnson/FreshHarvest-)  
 
 ---
 
