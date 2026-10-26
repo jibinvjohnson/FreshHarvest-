@@ -1,8 +1,4 @@
--- ==============================================================================
--- FreshHarvest — Triggers and Database Integrity Functions
--- ==============================================================================
 
--- Function: Automatically audit harvest batch inserts and adjustments
 CREATE OR REPLACE FUNCTION fn_audit_harvest_changes()
 RETURNS TRIGGER AS $$
 BEGIN

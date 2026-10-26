@@ -52,6 +52,10 @@ export async function POST(request: Request) {
 
     return NextResponse.json(result);
   } catch (error: any) {
+    if (error.errors && Array.isArray(error.errors)) {
+      const msg = error.errors.map((e: any) => e.message).join(', ');
+      return NextResponse.json({ error: msg }, { status: 400 });
+    }
     return NextResponse.json({ error: error.message || 'Allocation execution failed' }, { status: 400 });
   }
 }

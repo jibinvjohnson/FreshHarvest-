@@ -1,8 +1,4 @@
--- ==============================================================================
--- FreshHarvest — Indexes for Performance & Query Optimization
--- ==============================================================================
 
--- Foreign Key Indexes to optimize JOIN operations
 CREATE INDEX idx_farm_farmer ON FARM(farmer_id);
 CREATE INDEX idx_product_category ON PRODUCT(category_id);
 CREATE INDEX idx_harvest_farm ON HARVEST_BATCH(farm_id);
@@ -22,7 +18,6 @@ CREATE INDEX idx_allocation_harvest ON ALLOCATION(harvest_id);
 CREATE INDEX idx_surplus_harvest ON SURPLUS_LISTING(harvest_id);
 CREATE INDEX idx_audit_harvest ON HARVEST_AUDIT(harvest_id);
 
--- Date and Status Filtering Indexes
 CREATE INDEX idx_harvest_date ON HARVEST_BATCH(harvest_date);
 CREATE INDEX idx_harvest_status ON HARVEST_BATCH(status);
 CREATE INDEX idx_harvest_freshness ON HARVEST_BATCH(freshness_deadline);
